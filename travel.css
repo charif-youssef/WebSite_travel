@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+main{
+    scroll-behavior: smooth;
+}
+body{
+    overflow: hidden; 
+    
+}
+.continer{
+
+
+    background-image: linear-gradient(to left, #f71726 0%, #1f1829 100%);
+    height: 400vh;
+    width: 100%;
+    position: relative;
+}
+.continer .navconter{
+
+   /* background-color: rgb(0, 0, 0);*/
+    
+   
+    position: relative;
+
+}
+.continer .navconter .navbar{
+
+    background:rgba(255, 255, 255, 0.034);
+    position: fixed;
+    height: 7%;
+    width: 100%;
+   margin: 0;
+   padding: 0;
+ 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ z-index: 1;
+
+}
+.continer .navconter .navbar .logo
+{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.continer .navconter .navbar .logo .immg
+{
+    transform: rotate(-45deg);
+    margin-left: 10px;
+}
+.continer .navconter .navbar .logo .txt h2{
+    color:#ff4f5a;
+    font-style:italic ;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+.continer .navconter .navbar ul
+{  
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    height: 100%;
+   
+   
+}
+.continer .navconter .navbar ul li{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 0 12px 0 12px;
+    border-radius: 5px;
+    
+}
+.continer .navconter .navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.continer .navconter .navbar ul li a:hover{
+color: black;
+ border-left: black 2px solid;
+ display: flex;
+}
+/* page 2*/
+
+.page2{
+   /* background-color: rgba(255, 255, 255, 0.055); */
+    height: 25%;
+
+}
+.page2 h2
+{
+ font-size: 60px;
+ padding-top: 8%;
+ padding-left: 5%;
+
+ color: rgba(255, 255, 255, 0.774);
+
+ font-family: 'Permanent Marker', cursive;
+ font-style: italic;
+}
+.page2 p
+{
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 2%;
+    padding-left: 5%;
+
+    color: rgba(255, 255, 255, 0.767);
+    font-style: italic;
+}
+.page2 .iamge{
+    position: absolute;
+    top: 3%;
+    right: 4%;
+   
+}
+.page2 .iamge .carctere
+{
+    position: absolute;
+    top: 4%;
+    right: 15%;
+   z-index: 1;
+}
+.page2 .iamge .world
+{
+  animation: wrl infinite 100s;
+  transition: none;
+ 
+  animation-timing-function: linear;
+
+ 
+}
+@keyframes wrl{
+
+    0%{
+        transform: rotate(0deg);
+    }
+   
+  100%{
+    transform: rotate(-360deg);
+    }
+}
+.page2 .book{
+  
+    position: relative;
+    top: 15%;
+   margin-left: 6%;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid white;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    text-decoration: none;
+    background: white;
+    box-shadow: 3px 1px 5px 1px  #fdfeff49;
+}
+/* page 3*/
+.page3
+{
+
+height: 25%;
+box-sizing: border-box;
+position: relative;
+
+
+}
+.page3 h2{
+    font-size: 50px;
+    padding-top: 8%;
+    padding-left: 5%;
+   
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+}
+.page3 p
+{
+  
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    padding-left: 5%;
+
+    color: rgba(255, 255, 255, 0.767);
+    font-style: italic;
+
+}
+.page3 .imge2 .peaple
+{
+    position: absolute;
+    top: 4%;
+    right: 10%;
+   
+}
+/* Review personne */
+.page4{
+   
+     height: 25%;
+     
+ }
+ .page4 span{
+    color:#f71726 ;
+ }
+
+ .page4 .Review{
+
+
+    position: relative;
+    background: #2ecc71;
+    top: 10%;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+ }
+ .page4 .Review .title{
+   
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    text-align: center;
+    font-size: 26px;
+   
+
+ }
+ .page4 .Review .review1 ,.review2 ,.review3{
+    background: #a07d0c;
+    height: 70%;
+    width: 40%;
+    margin: 8px;
+    border-radius: 10px;
+   
+ }
+ /**/   
+ .page5{
+    background-image: linear-gradient(to left, #f71726 0%, #1f1829 100%);
+    position: relative;
+     height: 25%;
+    
+ }
+ .page5 .cnt{
+     position: relative;
+     margin: 5%;
+     top: 10%;
+  
+     text-align: center;
+ }
+.page5 .info{
+    height: 50%;
+    width: 50%;
+    float: left;
+ text-align: left;
+ top: 4px;
+ left: 20px;
+}
+ .page5 .infoinut{
+     height: 50%;
+     width: 50%;
+     float: right;
+ }
+ .page5 .cnt .title
+ {
+color: white;
+font-size: 25px; 
+font-family: 'Permanent Marker', cursive;
+font-style: italic;
+}
+
+.page5 .cnt .box{
+    color:rgba(0, 0, 0, 0.842);
+    border:none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    text-transform:inherit;
+    font-size: 15px;
+    transition: 0,25s;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+}
+.page5 .cnt .btn{
+    
+    outline: none;
+    background: white;
+    border: none;
+   
+     border-radius: 3px;
+     width: 80px;
+     height: 30px;
+     margin-top: 10px;
+    
+     font-size: 15px;
+     font-family: 'Permanent Marker', cursive;
+     font-style: italic;
+     transition: 0,25s;
+     cursor: pointer;
+     text-align: center;
+     box-shadow: 3px 1px 5px 1px  #fdfeff49;
+}
+.page5 .contact .info .inf
+{
+    color: white;
+    font-size: 25px; 
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    
+}
+.page5  span
+{ color:#f71726 ;}
+.page5 .contact .info .inft
+{
+    color: rgba(250, 232, 232, 0.733);
+    font-size: 18px; 
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+  
+     margin-left: 20px;
+   
+  
+}
+ /* page de remplaire les info de voyage*/
+ .incrip{
+    background-image: linear-gradient(to left, #f71726 0%, #1f1829 100%);
+     height: 25%;
+
+ }
+ .incrip .log{
+   
+    position: relative;
+    top: 20%;
+    left: 25%;
+   height: 70%;
+   width: 60%;
+   text-align: center;
+   border-radius: 4%;
+   background-color: rgba(206, 206, 206, 0.185); 
+
+
+
+   
+}
+
+.lb{
+    margin-left: 25px;
+    font-size: 20px;
+    transition: 0,25s;
+    font-family: 'Permanent Marker', cursive;
+}
+.lbl{
+    margin-left: 20px;
+    font-size: 20px;
+    transition: 0,25s;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+.nextloge{
+   
+    background-image: linear-gradient(to left, #f71726 0%, #1f1829 100%);
+    height: 25%;
+
+  
+
+}
+.nextlog
+{
+    position: relative;
+    top: 20%;
+    left: 25%;
+   height: 60%;
+   width: 50%;
+   text-align: center;
+   border-radius: 4%;
+   background-color: rgba(247, 247, 247, 0.116); 
+
+}
+.lb{
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    padding-left: 80px;
+}
+
+.tmselect{
+    
+    border:none;
+    border-bottom: 2px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+}
+.tmselect:hover{
+border-color: #2ecc71;
+}
+.villedeparte ,.paysdeparte{
+    margin: 20px;
+    background: white;
+    color:black;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+   
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    text-transform:inherit;
+    font-size: 15px;
+    transition: 0,25s;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+}
+.villedeparte:hover ,.paysdeparte:hover{
+    border-color: #2ecc71;
+}
+
+/* style de form of sherch of travel*/
+.incrip .title{
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    font-size: 20px;
+    color: #BABBBB;
+}
+.incrip .boxd{
+    
+   
+    color:black;
+    border:none;
+ margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    text-transform:inherit;
+    font-size: 15px;
+    transition: 0,25s;
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+}
+.incrip .boxd:hover{
+    
+    
+    outline: none;
+}
+
+
+.incrip .label{
+  
+    font-family: 'Permanent Marker', cursive;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+  
+}
+.incrip .btn{
+      
+       outline: none;
+       background: white;
+       border: none;
+      
+        border-radius: 3px;
+        width: 80px;
+        height: 30px;
+        margin-top: 10px;
+       
+        font-size: 15px;
+        font-family: 'Permanent Marker', cursive;
+        font-style: italic;
+        transition: 0,25s;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 3px 1px 5px 1px  #fdfeff49;
+}
